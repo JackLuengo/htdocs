@@ -15,6 +15,7 @@ $(document).ready(function () {
             genero: $('#genero1').val()
         };
 
+        
         fetch("Recepcion/insertUser", {
             headers: {
                 "Content-Type": "application/json",
